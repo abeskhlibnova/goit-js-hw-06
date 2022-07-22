@@ -23,15 +23,19 @@ button {
   cursor: pointer;
 }
 
+.gallery{
+  display: flex;
+  justify-content:baseline;
+  flex-direction: row;
+  flex-wrap: nowrap;
+    
+}
 .gallery-item {
-    display: flex;
-      align-items: center;
-   list-style: none;
+  list-style: none;
+  margin-right: 10px;
 }
 .gallery-img {
-
-margin-bottom: 10px;
-border-radius: 10%;
-width: 320px;
-
+  border-radius: 10%;
+  width: 260px;
+  height: 100%;
 }
