@@ -1,5 +1,5 @@
 const input = document.querySelector("#validation-input");
-const inputLength = +input.dataset.length;
+const inputLength = Number(input.dataset.length);
 
 function offChechInputLength(event) {
   if (input.value.length === inputLength) {
